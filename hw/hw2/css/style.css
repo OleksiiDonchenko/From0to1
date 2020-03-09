@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 5px 5px;
+}
+
+.first:hover{
+    color: seagreen;
+}
+
+.a{
+    margin-left: 110px;
+}
+.a:hover{
+    color: red;
+}
+
+.b{
+    margin-left: 130px;
+}
+.b:hover{
+    color: red;
+}
+
+.c{
+    margin-left: 215px;
+}
+.c:hover{
+    color: red;
+}
+
+.d{
+    margin-left: 270px;
+}
+.d:hover{
+    color: red;
+}
+
+.e{
+    margin-left: 330px;
+}
+.e:hover{
+    color: red;
+}
+
+.f{
+    margin-left: 390px;
+}
+.f:hover{
+    color: red;
+}
+
+.g{
+    margin-left: 480px;
+}
+.g:hover{
+    color: red;
+}
+
+.h{
+    margin-left: 525px;
+}
+.h:hover{
+    color: red;
+}
+
+.i{
+    margin-left: 580px;
+}
+.i:hover{
+    color: red;
+}
+
+.j{
+    margin-left: 525px;
+}
+.j:hover{
+    color: red;
+}
+
+.k{
+    margin-left: 480px;
+}
+.k:hover{
+    color: red;
+}
+
+.l{
+    margin-left: 390px;
+}
+.l:hover{
+    color: red;
+}
+
+.m{
+    margin-left: 330px;
+}
+.m:hover{
+    color: red;
+}
+
+.n{
+    margin-left: 270px;
+}
+.n:hover{
+    color: red;
+}
+
+.o{
+    margin-left: 215px;
+}
+.o:hover{
+    color: red;
+}

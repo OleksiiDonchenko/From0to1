@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 5000px;
+}
+
+.wrapper {
+    width: 700px;
+    height: 700px;
+    background-color: #ccc;
+}
+
+.box {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.item::after {
+    content: '';
+    display: block;
+    clear: both;
+}
