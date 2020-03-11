@@ -141,20 +141,21 @@ li {
     height: 125px;
 }
 
-.prev {
+.arrow_prev {
+    
     /* width: 20px;
     height: 20px; */
-    position: absolute;
+    position: inherit;
     top: 39%;
     left: 22px;
     /* margin-top: -10px; */
     
 }
 
-.next {
+.arrow_next {
     /* width: 20px;
     height: 20px; */
-    position: absolute;
+    position: inherit;
     top: 39%;
     right: 22px;
     /* margin-top: -10px; */
