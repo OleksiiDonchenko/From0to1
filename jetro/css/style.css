@@ -131,6 +131,10 @@ li {
     height: 125px;
 }
 
+.slick-prev:before, .slick-next:before {
+    content: none;
+}
+
 .slick-prev {
     background-image: url(../images/left_arrow.png);
     width: 36px;
@@ -149,16 +153,3 @@ li {
     position: absolute;
 }
 
-.slick-prev:before, .slick-next:before {
-    content: none;
-}
-
-.slick-prev:hover,
-.slick-prev:focus,
-.slick-next:hover,
-.slick-next:focus
-{
-    /* color: transparent; */
-    /* outline: none; */
-    /* background: transparent; */
-}
