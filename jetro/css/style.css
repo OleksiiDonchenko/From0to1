@@ -78,7 +78,6 @@ li {
     display: flex;
     height: 61px;
     background-color: #f0ac9a;
-    
 }
 
 .slider__item {
@@ -88,7 +87,6 @@ li {
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 .slider__item-text {
@@ -133,7 +131,7 @@ li {
     height: 125px;
 }
 
-.slick-prev{
+.slick-prev {
     background-image: url(../images/left_arrow.png);
     width: 36px;
     height: 52px;
@@ -142,7 +140,7 @@ li {
     position: absolute;
 }
 
-.slick-next{
+.slick-next {
     background-image: url(../images/right_arrow.png);
     width: 36px;
     height: 52px;
@@ -155,8 +153,12 @@ li {
     content: none;
 }
 
-
-
-button {
-    
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    /* color: transparent; */
+    /* outline: none; */
+    /* background: transparent; */
 }
