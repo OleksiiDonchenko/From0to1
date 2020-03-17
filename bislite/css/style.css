@@ -10,7 +10,7 @@ body {
     font-family: 'Lato', sans-serif;
     line-height: 20px;
     font-size: 15px;
-    height: 2000px;
+    /* height: 2000px; */
 }
 
 a {
@@ -432,4 +432,33 @@ li {
     width: 28px;
     left: 19px;
     top: 16px;
+}
+
+footer{
+    background-color: #e8ebf1;
+    border-top: #d9d9d9;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: 'arial', sans-serif;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer__item-title{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer__item-content{
+    width: 240px;
+}
+
+.footer__text{
+    padding-top: 25px;
+    font-size: 14px;
+    color: #363636;
 }
