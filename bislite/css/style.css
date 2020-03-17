@@ -462,3 +462,25 @@ footer{
     font-size: 14px;
     color: #363636;
 }
+
+.footer__item-list{
+    width: 115px;
+}
+
+.footer__list{
+    padding-top: 15px;
+}
+
+.footer__list li{
+    display: block;
+}
+
+.footer__list a{
+    color: #363636;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.footer__item-contact{
+    width: 150px;
+}
