@@ -74,12 +74,6 @@ li {
     color: #e8663c;
 }
 
-.slider {
-    display: flex;
-    height: 61px;
-    background-color: #f0ac9a;
-}
-
 .slider__item {
     background-image: url(../images/slider-img.jpg);
     min-height: 401px;
@@ -153,3 +147,8 @@ li {
     position: absolute;
 }
 
+.items__inner{
+    display: flex;
+    justify-content: space-between;
+    
+}

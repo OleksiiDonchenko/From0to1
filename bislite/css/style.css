@@ -47,13 +47,15 @@ li {
     height: 120px;
 }
 
-.header__logo a {
+.header__logo a,
+.footer__logo a{
     color: #2aacc8;
     font-size: 50px;
     font-weight: 400;
 }
 
-.header__logo a span {
+.header__logo a span, 
+.footer__logo a span{
     color: #000;
     font-weight: 700;
 }
@@ -483,4 +485,49 @@ footer{
 
 .footer__item-contact{
     width: 150px;
+}
+
+.footer__adress{
+    padding-top: 25px;
+    font-size: 14px;
+    color: #363636;
+}
+
+.footer__adress span{
+    display: block;
+    font-weight: 700;
+}
+
+.footer__phone{
+    padding-top: 20px;
+    color: #363636;
+    font-size: 14px;
+}
+
+.footer__phone a{
+    color: #363636;
+}
+
+.footer__social{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 190px;
+}
+
+.footer__item-title-social{
+    padding-left: 10px;
+}
+
+.footer__bootom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copy{
+    font-size: 13px;
+    line-height: 18px;
+    max-width: 650px;
+    color: #363636;
 }
