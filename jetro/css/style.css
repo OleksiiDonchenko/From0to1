@@ -135,7 +135,7 @@ li {
 }
 
 .slick-prev {
-    background-image: url(../images/left_arrow.png);
+    background-image: url(../images/arrows/left_arrow.png);
     width: 36px;
     height: 52px;
     top: 183px;
@@ -144,7 +144,7 @@ li {
 }
 
 .slick-next {
-    background-image: url(../images/right_arrow.png);
+    background-image: url(../images/arrows/right_arrow.png);
     width: 36px;
     height: 52px;
     top: 183px;
@@ -192,6 +192,49 @@ li {
     color: #fff;
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center;  
+}
+
+.works{
+    margin-bottom: 50px;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e8663c;
+    padding: 40px 40px 35px 35px;
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+}
+
+.footer{
+    background-color: #f2ae9c;
+}
+
+.footer__title{
+    margin-bottom: 27px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.footer__text-one{
+    margin-bottom: 17px;
+}
+
+.footer__item-about{
+    width: 265px;
+}
+
+.footer__item-twitter{
+    width: 225px;
+}
+
+.footer__item-contact{
+    width: 260px;
+}
+
+.footer__item-contact a{
+    color: #fff;
 }
