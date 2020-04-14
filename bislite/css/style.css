@@ -47,15 +47,13 @@ li {
     height: 120px;
 }
 
-.header__logo a,
-.footer__logo a{
+.header__logo a, .footer__logo a {
     color: #2aacc8;
     font-size: 50px;
     font-weight: 400;
 }
 
-.header__logo a span, 
-.footer__logo a span{
+.header__logo a span, .footer__logo a span {
     color: #000;
     font-weight: 700;
 }
@@ -160,12 +158,12 @@ li {
     transition: all .3s;
 }
 
-.header__menu-btn{
+.header__menu-btn {
     width: 30px;
     display: none;
 }
 
-.header__menu-row{
+.header__menu-row {
     width: 100%;
     background-color: #000;
     height: 4px;
@@ -370,14 +368,14 @@ li {
     font-family: 'arial', sans-serif;
 }
 
-.clients__inner{
+.clients__inner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.testimonials{
+.testimonials {
     max-width: 440px;
 }
 
@@ -406,30 +404,30 @@ li {
     height: 20px;
 }
 
-.download{
+.download {
     margin-top: 40px;
     padding: 30px 40px 30px 30px;
-    border: 1px  solid #81e4ed;
+    border: 1px solid #81e4ed;
     background-color: #e8fcfe;
     width: 1000px;
     display: flex;
     justify-content: space-between;
 }
 
-.download__text{
+.download__text {
     font-size: 16px;
     line-height: 26px;
     color: #363636;
     max-width: 620px;
 }
 
-.download__btn a{
+.download__btn a {
     padding: 20px 20px 20px 70px;
     position: relative;
     border: 1px solid rgb(42, 172, 200);
     border-radius: 8px;
-    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2),inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-    background-image: -webkit-linear-gradient( 90deg, rgb(42,172,200) 0%, rgb(96,206,222) 15%, rgb(114,218,230) 50%, rgb(129,228,237) 100%);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
+    background-image: -webkit-linear-gradient( 90deg, rgb(42, 172, 200) 0%, rgb(96, 206, 222) 15%, rgb(114, 218, 230) 50%, rgb(129, 228, 237) 100%);
     /* background: linear-gradient( to top, rgb(42,172,200) 0%, rgb(96,206,222) 15%, rgb(114,218,230) 50%, rgb(129,228,237) 100%); */
     font-size: 18px;
     line-height: 20px;
@@ -438,7 +436,7 @@ li {
     text-transform: uppercase;
 }
 
-.download__btn a::before{
+.download__btn a::before {
     content: '';
     position: absolute;
     background-image: url(../images/clients/download.svg);
@@ -448,7 +446,7 @@ li {
     top: 16px;
 }
 
-footer{
+footer {
     background-color: #e8ebf1;
     border-top: #d9d9d9;
     padding-top: 30px;
@@ -456,71 +454,71 @@ footer{
     font-family: 'arial', sans-serif;
 }
 
-.footer__inner{
+.footer__inner {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
 }
 
-.footer__item-title{
+.footer__item-title {
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.footer__item-content{
+.footer__item-content {
     width: 240px;
 }
 
-.footer__text{
+.footer__text {
     padding-top: 25px;
     font-size: 14px;
     color: #363636;
 }
 
-.footer__item-list{
+.footer__item-list {
     width: 115px;
 }
 
-.footer__list{
+.footer__list {
     padding-top: 15px;
 }
 
-.footer__list li{
+.footer__list li {
     display: block;
 }
 
-.footer__list a{
+.footer__list a {
     color: #363636;
     font-size: 14px;
     line-height: 26px;
 }
 
-.footer__item-contact{
+.footer__item-contact {
     width: 150px;
 }
 
-.footer__adress{
+.footer__adress {
     padding-top: 25px;
     font-size: 14px;
     color: #363636;
 }
 
-.footer__adress span{
+.footer__adress span {
     display: block;
     font-weight: 700;
 }
 
-.footer__phone{
+.footer__phone {
     padding-top: 20px;
     color: #363636;
     font-size: 14px;
 }
 
-.footer__phone a{
+.footer__phone a {
     color: #363636;
 }
 
-.footer__social{
+.footer__social {
     padding-top: 25px;
     display: flex;
     justify-content: space-between;
@@ -528,16 +526,16 @@ footer{
     width: 190px;
 }
 
-.footer__item-title-social{
+.footer__item-title-social {
     padding-left: 10px;
 }
 
-.footer__bootom{
+.footer__bootom {
     display: flex;
     justify-content: space-between;
 }
 
-.footer__copy{
+.footer__copy {
     font-size: 13px;
     line-height: 18px;
     max-width: 650px;
