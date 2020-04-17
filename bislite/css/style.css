@@ -10,7 +10,6 @@ body {
     font-family: 'Lato', sans-serif;
     line-height: 20px;
     font-size: 15px;
-    /* height: 2000px; */
 }
 
 a {
@@ -370,7 +369,6 @@ li {
 
 .clients__inner {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -518,12 +516,15 @@ footer {
     color: #363636;
 }
 
-.footer__social {
+.footer__item-social {
+    width: 185px;
+}
+
+.footer__social{
     padding-top: 25px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 190px;
 }
 
 .footer__item-title-social {
