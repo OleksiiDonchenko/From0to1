@@ -73,6 +73,18 @@ li {
     color: #e8663c;
 }
 
+.header__menu-btn{
+    width: 30px;
+    display: none;
+}
+
+.header__menu-row{
+    width: 100%;
+    background-color: #e8663c;
+    height: 4px;
+    margin-bottom: 4px;
+}
+
 .slider {
     height: 61px;
     background-color: #f2ae9c;
