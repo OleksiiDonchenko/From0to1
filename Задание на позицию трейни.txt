@@ -1,0 +1,77 @@
+General documentation about various parts of frontend, more technical specification
+
+ 
+
+Tutorial and documentation about different parts of FE, more user friendly
+
+ 
+
+One of the best sites about Javascript -  
+
+HTTP protocol operations chain
+
+ 
+
+Literature:
+
+Required for reading
+
+Dawid Thomas, Andrew Hunt - The Pragmatic Programmer / Девид Томас, Эндрю Хант - Программист-прагматик
+
+Optional
+
+Marijn Haverbeke - Eloquent JavaScript, 3rd Edition / Хавербеке Марейн - Выразительный JavaScript 3-е издание
+
+Flanagan D. - JavaScript: The Definitive Guide 7th edition /  Флэнаган Д. - JavaScript: Полное руководство 7-е издание
+
+Requirements:
+
+OS - Ubuntu or MacOS
+
+All code should be pushed to git repository
+
+Each ticket should be represented as at least one or bunch of commits in repository 
+
+clean, simple and easy to read code
+
+Valid readme file with instructions for start and environment requirements if present
+
+Restrictions - any restrictions for libraries or other tools except requirements in tickets
+
+--------- Ticket #1 (slicing) ---------
+
+Home page
+
+Contact us page (email, name, subject, message)
+
+Requirements:
+
+SCSS
+
+Pixel perfect
+
+Responsive
+
+--------- Ticket #2 (JS - Home page) ---------
+
+implement some section of home page as slider
+
+implement some section of home page as accordion
+
+--------- Ticket #3 (JS - dynamic data emulation) ---------
+
+implement data requests for home page lists (team people, gallery, etc.) from static json files
+
+JSON files should be prepared by yourself
+
+display loader for section while data is loading
+
+--------- Ticket #4 (JS - Contact Us) ---------
+
+add submit form handler
+
+validate fields (all required, email should be valid email, description shouldn't be longer than 300 characters)
+
+if form invalid show errors to user
+
+if form success, display alert and console.log with form values
