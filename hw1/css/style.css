@@ -1,19 +1,12 @@
-h1{
+body{
     text-align: center;
+}
+.vadim{
+    font-weight: 700;
     font-size: 60px;
 }
-h3{
-    text-align: center;
-}
-.image-center{
-    text-align: center;
-}
 .text{
-    text-align: center;
     font-size: 24px;
     font-weight: 700;
     font-style: italic;
-}
-.link-center{
-    text-align: center;
 }
