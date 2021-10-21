@@ -3,8 +3,12 @@
     margin: 5px 5px;
 }
 
+p{
+    width: fit-content;
+}
+
 .first:hover{
-    color: seagreen;
+    color: red;
 }
 
 .a{
@@ -98,7 +102,7 @@
     color: red;
 }
 
-.n{
+.nв{
     margin-left: 270px;
 }
 .n:hover{
