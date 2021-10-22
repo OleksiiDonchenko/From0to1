@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+
+p{
+    width: fit-content;
+}
+
+.a:hover{
+    color: red;
+}
+
+.b{
+    margin-left: 105px;
+}
+
+.b:hover{
+    color: royalblue;
+}
+
+.c{
+    margin-left: 125px;
+}
+
+.c:hover{
+    color: salmon;
+}
+
+.d{
+    margin-left: 210px;
+}
+
+.d:hover{
+    color: seagreen;
+}
+
+.e{
+    margin-left: 260px;
+}
+
+.e:hover{
+    color: slateblue;
+}
+
+.f{
+    margin-left: 320px;
+}
+
+.f:hover{
+    color: royalblue;
+}
+
+.g{
+    margin-left: 385px;
+}
+
+.g:hover{
+    color: salmon;
+}
+
+.h{
+    margin-left: 475px;
+}
+
+.h:hover{
+    color: seagreen;
+}
+
+.i{
+    margin-left: 525px;
+}
+
+.i:hover{
+    color: slateblue;
+}
+
+.j{
+    margin-left: 585px;
+}
+
+.j:hover{
+    color: royalblue;
+}
+
+.k{
+    margin-left: 525px;
+}
+
+.k:hover{
+    color: salmon;
+}
+
+.l{
+    margin-left: 475px;
+}
+
+.l:hover{
+    color: seagreen;
+}
+
+.m{
+    margin-left: 385px;
+}
+
+.m:hover{
+    color: slateblue;
+}
+
+.n{
+    margin-left: 320px;
+}
+
+.n:hover{
+    color: royalblue;
+}
+
+.o{
+    margin-left: 260px;
+}
+
+.o:hover{
+    color: salmon;
+}
+
+.p{
+    margin-left: 210px;
+}
+
+.p:hover{
+    color: seagreen;
+}
