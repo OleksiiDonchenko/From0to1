@@ -13,8 +13,85 @@ div{
 }
 
 .box1{
+    position: absolute;
     width: 200px;
     height: 100px;
     background-color: red;
+    border: 4px solid;
+    top: 1px;
+    transition: all 2s;
+    z-index: 6;
+}
+.box1:hover{
+    background-color: #fff;
+}
 
+.box2{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 4px solid;
+    top: 51px;
+    transition: all 2s;
+    z-index: 5;
+}
+.box2:hover{
+    background-color: #fff;
+}
+
+.box3{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    background-color: green;
+    border: 4px solid;
+    top: 101px;
+    transition: all 2s;
+    z-index: 4;
+}
+.box3:hover{
+    background-color: #fff;
+}
+
+.box4{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    background-color: blue;
+    border: 4px solid;
+    top: 151px;
+    transition: all 2s;
+    z-index: 3;
+}
+.box4:hover{
+    background-color: #fff;
+}
+
+.box5{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    background-color: pink;
+    border: 4px solid;
+    top: 201px;
+    transition: all 2s;
+    z-index: 2;
+}
+.box5:hover{
+    background-color: #fff;
+}
+
+.box6{
+    position: absolute;
+    width: 700px;
+    height: 100px;
+    background-color: gray;
+    border: 4px solid;
+    top: 251px;
+    transition: all 2s;
+    z-index: 1;
+}
+.box6:hover{
+    background-color: #fff;
 }
