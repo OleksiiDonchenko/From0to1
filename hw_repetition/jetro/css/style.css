@@ -5,3 +5,34 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+a {
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+    background-color: #f9f9f9;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo a {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #f3af9d;
+}
+
+.header__logo a span {
+    color: #e8603c;
+}
