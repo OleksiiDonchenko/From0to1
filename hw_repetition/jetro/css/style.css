@@ -12,6 +12,16 @@ a {
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -25,6 +35,8 @@ a {
 .header__inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 78px;
 }
 
 .header__logo a {
@@ -36,3 +48,20 @@ a {
 .header__logo a span {
     color: #e8603c;
 }
+
+.header__menu li+li{
+    margin-left: 28px;
+}
+
+.header__menu a{
+    font-size: 16px;
+    line-height: auto;  
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    color: #b9b9b9;
+}
+
+.header__menu a:hover{
+    color: #e8663c;
+}
+
