@@ -64,14 +64,31 @@ li{
     font-family: 'Arial', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    padding-top: 9px;
+    padding-bottom: 13px;
+}
+
+.header__drop-down.drop-down{
+    margin-left: 39px;
+}
+
+.header__drop-down{
+   position: relative;
 }
 
 .drop-down__list{
-    display: none;
+    position: absolute;
+    width: 200px;
+    background-color: #fff;
+    border-bottom: 5px solid #2aacc8;
 }
 
 .header__drop-down > a{
     position: relative;
+    padding-left: 11px;
+    padding-right: 26px;
+    border-top: 5px solid transparent;
+    transition: all .3s;
 }
 
 .header__drop-down > a::after{
@@ -80,6 +97,13 @@ li{
     background-image: url(../images/down-arrow.png);
     width: 7px;
     height: 5px;
-    right: -16px;
-    top: 7px;
+    right: 11px;
+    top: 16px;
 }
+
+.header__drop-down > a:hover{
+    color: #2aacc8;
+    border-top: 5px solid #2aacc8;
+    background-color: #fff;
+}
+
