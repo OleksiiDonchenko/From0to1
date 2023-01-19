@@ -173,7 +173,7 @@
     }
 }
 
-@media (min-width:960px) {
+@media (min-width:961px) {
     .header__menu>ul {
         display: block !important;
     }

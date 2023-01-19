@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+$pink: #cc2add;
+
+body {
+    background-color: #ccc;
+}
+
+.header__menu {
+    padding: 0;
+    .header__menu-link {
+        font-size: 12px;
+    }
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    .list-drop{
+        padding: 0;
+        &:hover{
+            padding: 0;
+            background-color: rgba(#2dfcdc, 0.9);
+            color: $pink;
+        }
+    }
+}
+
+.common {
+    padding-left: 50px;
+    margin-right: 20px;
+}

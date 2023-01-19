@@ -1,0 +1,16 @@
+body {
+  background-color: #fff;
+}
+
+.menu {
+  margin: 0;
+}
+.menu li {
+  padding: 0;
+}
+.menu a {
+  text-decoration: none;
+}
+.menu a:hover {
+  text-decoration: underline;
+}

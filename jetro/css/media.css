@@ -1,6 +1,120 @@
-@media (max-width: 960px){
-    .header__menu-btn{
+@media (max-width: 960px) {
+    .header__menu-btn {
         display: block;
+        margin-right: 30px;
     }
+    .header__menu ul {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 78px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+        border-bottom: 5px solid #e8663c;
+    }
+    .header__menu li {
+        display: block;
+        text-align: center;
+    }
+    .header__menu li + li {
+        margin-left: 0px;
+    }
+    .header__menu a {
+    padding: 12px 0 12px 11px;
+    font-weight: 400;
+    display: block;
+    text-transform: none;
+    }
+    .header__menu li a {
+        border-top: 1px solid #e7e7e7;
+    }
+    .item {
+        width: 50%;
+        margin-top: 15px;
+        padding-right: 20px;
+    }
+    .works__inner-title::after {
+        max-width: 85%;
+        left: 110px;
+    }
+    .works__inner-works {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .works__inner-work {
+        width: 320px;
+        height: 360px;
+    }
+    .works__inner-img {
+        width: 300px;
+    }
+    .works__inner-work-text {
+        width: 300px;
+    }
+    .works {
+        margin-bottom: 0px;
+    }
+}
 
+@media (max-width: 880px){
+    .works__inner-work {
+        width: 300px;
+    }
+    .footer__inner {
+        flex-direction: column;
+    } 
+    .footer__item {
+        width: 100%;
+    }
+    .footer__item-twitter {
+        padding-top: 25px;
+    }
+    .footer__item-contact {
+        padding-top: 25px;
+    }
+    .footer__title {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 800px) {
+    .items__inner {
+        flex-wrap: wrap;
+        justify-content: center;    
+    }
+    .works__inner-title::after {
+        max-width: 80%;
+        left: 110px;
+    }
+}
+
+@media (max-width: 520px) {
+    .item {
+        width: 100%;
+    }
+    .slider__item-text {
+        margin-top: 230px;
+        margin-left: 20px;
+        width: 230px;
+        padding-right: 20px;
+    }
+    .works__inner-title::after {
+        max-width: 75%;
+        left: 100px;
+    }
+}
+
+@media (max-width: 400px) {
+    .works__inner-title::after {
+        max-width: 65%;
+        left: 100px;
+    }
+}
+
+@media (min-width: 961px) {
+    .header__menu ul {
+        display: block !important;
+    }
 }
