@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c9c9c9;
+}
+
+header {
+ background-color: green;
+}
+
+footer {
+    background-color: blue;
+}
+
+section {
+    background-color: yellow;
+}
+
+h1, h2, h3 {
+    color: aqua;
+}
